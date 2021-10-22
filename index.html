@@ -1,0 +1,25 @@
+<html>
+<head>
+  <title>Write a JavaScript program to reverse the elements of a given array, you can not use Array.reverse() do it with loop.</title>
+</head>
+
+
+<body>
+  <style>
+    h1{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+  </style>
+<h1>Write a JavaScript program to reverse the elements of a given array, you can not use Array.reverse() do it with loop.</h1>
+<script>
+let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let reversedNumbers = [];
+
+for(let i = numbers.length -1; i >= 0; i--) {
+  reversedNumbers.push(" " + numbers[i]);
+}
+
+document.write("Final Result is: " + reversedNumbers);
+</script>
+</body>
+</html>
